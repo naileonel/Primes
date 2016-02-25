@@ -1,0 +1,388 @@
+/*Primes*/
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.star{
+	height: 20px;
+	width: 20px;
+}
+
+.hero {
+	background-image: url("../img/background/hero.jpg");
+	height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+    
+	
+}
+
+
+
+
+nav li {
+ 	font-size: 15px;
+ 	color: white;
+ 	display: inline; 
+ 	margin-right: 3%;
+}
+
+a:hover{
+	color: #0dc0c0;
+}
+
+.active:hover{
+	color: white;
+}
+
+.features-tam{
+	height: 200px;
+	width: 600px;
+}
+
+.text-gris{
+	color: #554D4D;
+}
+
+/*Reyna sección cabecera */
+
+.iconos{
+	height: 50px;
+	width: 50px;
+}
+
+
+.flask{
+	background-image:url("../img/ico/flask.png");
+	height: 27px;
+	width: 20px;
+}
+
+.cargo-boat{
+	background-image:url("../img/ico/cargo-boat.png");
+	height: 27px;
+	width: 20px;
+}
+
+.dashboard{
+	background-image:url("../img/ico/dashboard.png");
+	height: 27px;
+	width: 20px;
+}
+
+.pie-chart{
+	background-image:url("../img/ico/pie-chart.png");
+	height: 27px;
+	width: 20px;
+}
+
+.download-button{
+	background-image:url("../img/ico/download-button.png");
+	height: 27px;
+	width: 20px;
+}
+
+.cup{
+	background-image:url("../img/ico/cup.png");
+	height: 27px;
+	width: 20px;
+}
+
+/*Paddings y margins (Reyna)*/
+.pt-3{
+	padding-top: 3%;
+}
+
+
+.mt-10{
+	margin-top: 10%;
+}
+
+.pb-3{
+	padding-bottom: 3%;
+}
+
+.ml-3{
+	margin-left: 3%;
+}
+
+.mt-5{
+	margin-top:5%;
+}
+
+
+/*Fuentes y tamaños (NAIBIT y REYNA)*/
+.open{
+	font-family: "Open Sans"
+}
+
+.dosis{
+	font-family: "Dosis";
+}
+
+.font-50{
+	font-size: 45px;
+}
+
+.font-20{
+	font-size: 20px;
+}
+
+.font-14{
+	font-size:14px;
+}
+
+.font-11{
+	font-size: 11px;
+}
+
+.destacado {
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+/*contacto*/
+
+.contactus{
+	background-image: url("../img/background/contactus.jpg");
+	height: 600px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/*Formulario*/
+input, textarea{	
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    margin-bottom: 4%;
+    border: none;
+    color: #555;
+    padding: 2%;
+    font-family: "Open Sans"
+    
+}
+input[type="button"]{
+	width: 20%;
+    padding: 2.5%;
+    background-color: #0dc0c0;
+    border-bottom: 1px solid #192951;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+input[type="button"]:hover{
+    background: #434549;
+}
+
+fieldset{
+	border: none;
+	margin-top: 5%;
+}
+
+.tiny-ico{
+	height: 12px;
+	width: 12px;
+	margin-right: 1%;
+}
+
+.redes-ico{
+	height:30px;
+	width: 30px;
+	margin-top:3%;
+	margin-left: 1%;
+}
+
+/*Botones Reyna y Naibit*/
+
+
+button{
+    color: white;
+    border:none;
+    font-family: "Dosis" 15px;
+    font-weight: bolder;
+}
+
+button:hover{
+	color: white;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid #848588;
+    font-family: "Dosis" 15px;
+    font-weight: bolder;
+}
+
+.bot-gris{
+	 background:rgb(83, 88, 95);
+}
+
+.bot-trans{
+	background:rgba(255,255,255,0.2);
+}
+
+.bot-trans:hover{
+	background:rgb(83, 88, 95);
+}
+
+.tam-botI{
+	height: 40px;
+	margin-top: 3%;
+	width: 15%;
+	margin-right: 5%;
+}
+
+.tam-botII{
+	height: 40px;
+	width: 15%;
+	margin-right: 5%;
+}
+
+.tam-botIII{
+	height: 30px;
+	width: 35%;
+	margin-right: 5%;
+}
+/*Clases NAIBIT*/
+
+.text{
+	text-align: center;
+	color:#585858;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.gris{
+	color: #646464;
+	text-align: center;
+	margin-bottom: 3%;
+}
+/*menu*/
+ul li{
+	display: inline;
+	background-color: #FFFCFC;
+	font-family: "Open Sans";
+	font-weight: bolder;
+	padding: 1%;
+}
+
+.diferente{
+	margin-left: 27%;
+	background-color: #0dc0c0;
+	color:white;
+}
+
+
+ul li:hover{
+	background-color: #0dc0c0;
+	color: white;
+}
+
+.diferente:hover{
+	color: #0dc0c0;
+	background-color: white;
+}
+
+.fondo-blanco{
+	background-color: white;
+	padding: 1% 2% 5% 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.uno-a{
+	background-image: url("../img/grid/1a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.dos-a{
+	background-image: url("../img/grid/2a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.tres-a{
+    background-image: url("../img/grid/3a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.cuatro-a{
+    background-image: url("../img/grid/4a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.cinco-a{
+    background-image: url("../img/grid/5a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.seis-a{
+    background-image: url("../img/grid/6a.jpg");
+	height: 230px;
+	background-size: 100%;
+}
+.city{
+	background-image: url("../img/background/city.jpg");
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.blanco{
+	background: white;
+	padding: 4% 5%;
+}
+.stan{
+	background:#0E2846;
+	text-align: center;
+	color: white;
+	padding: 20px 10px;
+	}
+
+.premium{
+	background-color:#0dc0c0;
+	text-align: center;
+	color: white;
+	padding: 20px 10px;
+}
+.pesos{
+	padding-bottom: 15%;
+	padding-top: 15%;
+	text-align: center;
+}
+.est{
+	margin-top:5%;
+}
+hr{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.ima{
+	width: 15%;
+	margin-left: 43%;
+	padding: 0;
+	border-radius: 300px;
+}
+.sit{
+	margin: 5% 15% 10px 15%;
+}
+h5{
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 10%;
+}
+.fin{
+	background:#424242;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.white{
+	padding-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 5%;
+	font-size: 20px;
+}
